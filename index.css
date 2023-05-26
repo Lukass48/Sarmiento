@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+h4{font-size: 1.7em;}
+h5{font-size: 1.5em;}
+p{ font-size: 24px;}
+
+.color-acento{color: blueviolet;}
+
+body{
+    font-family: 'Arial','Times New Roman';
+    margin: 0;}
+
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+
+header {
+        background-color: rbg(235,235,235);
+    }
+header .logo{
+    margin: 0 ;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+    
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/sarmiento.jpg");
+    background-position: center;
+    
+}
+#sintesis{
+
+}
+
+#sintesis.container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#preguntas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#preguntas .container{
+    padding: 200px 0px;
+}
+
+#preguntas p{
+    display: 
+}
+
+#preguntas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.carta:first-child{
+
+  color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/pregunta.jpg");
+}
+
+.carta:nth-child(2){
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/pregunta.jpg");
+}
+
+.carta:nth-child(3){
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/pregunta.jpg");
+}
+
+#sintesis-C .container{
+text-align: center;
+padding: 200px 12px;
+
+}
+
+#memes{
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer .p{
+    margin: 0;
+    color: rgb(100, 100, 100);
+    padding: 12px ;
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
